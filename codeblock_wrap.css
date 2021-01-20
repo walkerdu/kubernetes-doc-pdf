@@ -1,4 +1,5 @@
 pre, code{
+  font-family: msyh;
   word-wrap: break-word !important;
   overflow-wrap:break-word !important;
   background-color: #f8f8f8 !important;
@@ -15,4 +16,9 @@ table {
 
 table, th, td {
   border: 1px solid black;
+}
+
+@font-face{
+  font-family: msyh;
+  src: url(/usr/share/fonts/msyh.ttf)
 }

@@ -57,7 +57,7 @@ if __name__ == '__main__':
                    # "Admin",  # this direct to concepts
                    # "Imported",  # deprecated
                    ]
-    directories_pairs = [("https://kubernetes.io/docs/{}/".format(n.lower()), n) for n in directories]
+    directories_pairs = [("https://kubernetes.io/zh/docs/{}/".format(n.lower()), n) for n in directories]
     for url, name in directories_pairs:
         print(name)
         generate_directory_pdf(url, name)
